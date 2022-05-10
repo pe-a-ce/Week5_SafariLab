@@ -125,7 +125,7 @@ SELECT animal.name
 FROM animal
 JOIN enclosure
 ON animal.enclosure_id = enclosure.id
-WHERE enclosure.id = 5 AND NOT animal.name = 'Lenny'; 
+WHERE enclosure.name = 'Giraffe Field' AND NOT animal.name = 'Marty'; 
 
 
 ## Hints
